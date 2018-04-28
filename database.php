@@ -9,11 +9,11 @@
     function __construct(){
       $mysqli=mysqli_connect("$this->hosts","$this->user","$this->password","$this->db");
       if(mysqli_connect_errno()) {
-      echo "Error: Could not connect to database.";
+      echo "Gak iso konek!";
       exit;
       }
     }
   }
 
-  
+
  ?>

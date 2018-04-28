@@ -15,10 +15,10 @@ class aksi extends database{
     $mysqli=mysqli_connect("$this->hosts","$this->user","$this->password","$this->db");
     $hasil=mysqli_query($mysqli,"insert into user values('','$nama','$alamat','$usia')");
     if ($hasil){
-      echo "Sukses menyimpan data <br />
+      echo "Sukses wes nyimpan data <br />
        <a href=\"bukutelp_view.php\">Lihat Buku Telepon</a>";
       } else {
-        echo "Terjadi kesalahan";
+        echo "Onok kesalahan";
       }
 
       $mysqli->close();
